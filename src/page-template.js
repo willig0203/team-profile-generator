@@ -7,7 +7,8 @@ const generateProjects = projectsArr => {
         <div class="col-sm-6 col-lg-4 mb-4">
          <div class="card">
           <div class="card-body">
-          <h5 class="card-title">${roles} ${name}</h5>               
+          <p class="card-title">${roles}</p> 
+          <p class="card-title">${name}</p>                
           <p class="card-text">ID: ${id}   
           <p class="card-text">Email: ${email}</p>
           <p class="card-text">
@@ -15,10 +16,10 @@ const generateProjects = projectsArr => {
             if (roles === 'Manager') {
               return ` 
                Office: ${misc}
-                `
+               `
             } else if (roles === 'Engineer') {
               return `
-                GitHub: <a href="${misc}" class="btn mt-auto"><i"></i>GitHub</a>
+                GitHub: <a href="https://github.com/${misc}" target="_blank">${misc}</a>
                 `
             } else if (roles === 'Intern') {
               return `
@@ -68,7 +69,7 @@ module.exports = templateData => {
     </div>
     </main>
     <footer>
-      <h3">&copy;2022 by ${employee[0].name}</h3>
+      <h3>&copy;2022 by ${employee[0].name}</h3>
     </footer>
 
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
