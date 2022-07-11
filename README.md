@@ -10,5 +10,5 @@ Repo: https://github.com/willig0203/team-profile-generator
 
 [Screenshot of application](./images/Screenshot%202022-07-11.jpg)
 
-Contribution
+Contribution: 
 Gary Williams (Trademark GarywareLLC).
