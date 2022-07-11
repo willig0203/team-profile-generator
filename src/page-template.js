@@ -4,12 +4,10 @@ const generateProjects = projectsArr => {
       ${projectsArr
       .map(({ name, id, roles, email, misc }) => {
         return `
-
         <div class="col-sm-6 col-lg-4 mb-4">
          <div class="card">
           <div class="card-body">
-          <h5 class="card-title">${roles} ${name}</h5>
-               
+          <h5 class="card-title">${roles} ${name}</h5>               
           <p class="card-text">ID: ${id}   
           <p class="card-text">Email: ${email}</p>
           <p class="card-text">
@@ -72,8 +70,8 @@ module.exports = templateData => {
     <footer>
       <h3">&copy;2022 by ${employee[0].name}</h3>
     </footer>
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
     <script async src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script>
 
   </body>
