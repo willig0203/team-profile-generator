@@ -9,3 +9,6 @@ Walkthrough Vidio Link: https://drive.google.com/file/d/1G2eiR1jsy3D1QqNRj0UamLa
 Repo: https://github.com/willig0203/team-profile-generator
 
 [Screenshot of application](./images/Screenshot%202022-07-11.jpg)
+
+Contribution
+Gary Williams (Trademark GarywareLLC).
