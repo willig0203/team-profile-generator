@@ -1,8 +1,6 @@
 // create the projects section
 const generateProjects = projectsArr => {
   return `
-    <section>    
-      <div class="flex-row justify-space-between">    
       ${projectsArr
       .map(({ name, id, roles, email, misc }) => {
         return `
@@ -37,9 +35,6 @@ const generateProjects = projectsArr => {
         `;
       })
       .join('')}
-    
-      </div>
-    </section>
   `;
 };
 
