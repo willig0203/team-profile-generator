@@ -1,14 +1,14 @@
-// create the projects section
-const generateProjects = projectsArr => {
+// create the employee object section
+const generateEmployee = employeeArr => {
   return `
-      ${projectsArr
+      ${employeeArr
       .map(({ name, id, roles, email, misc }) => {
         return `
         <div class="col-sm-6 col-lg-4 mb-4">
          <div class="card">
           <div class="card-body">
-          <p class="card-title">${roles}</p> 
-          <p class="card-title">${name}</p>                
+          <p class="card-title">${name}</p>  
+          <p class="card-title">${roles}</p>               
           <p class="card-text">ID: ${id}   
           <p class="card-text">Email: ${email}</p>
           <p class="card-text">
@@ -65,7 +65,7 @@ module.exports = templateData => {
     </header>
     <main>
     <div class="row" data-masonry='{"percentPosition": true }'>    
-      ${generateProjects(employee)}
+      ${generateEmployee(employee)}
     </div>
     </main>
     <footer>
