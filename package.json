@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "jest": "^28.1.2",
+    "node": "^18.5.0"
+  }
+}
